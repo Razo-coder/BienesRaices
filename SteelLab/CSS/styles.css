@@ -105,7 +105,7 @@ h4{
   }
 } 
 .contenido-header h1{
-  color: rgb(0, 0, 0);
+  color: darkblue;
   padding-bottom: 2rem;
   max-width: 60rem;
   line-height: 1.8;
@@ -122,7 +122,7 @@ h4{
 } 
 /** Navegacion **/
 .navegacion a {
-  color: black;
+  color: darkblue;
   text-decoration: none;
   font-size: 2.2rem;
   display: block;
@@ -235,7 +235,7 @@ h4{
 
 /*Contacto Home*/
 .imagen-contacto{
-  background-image: url(../img/doc3.jpg);
+  background-image: url(../img/doc2.jpg);
   background-position: center center;
   background-size: cover;
   height: 40rem;
@@ -359,13 +359,14 @@ h4{
 /*Nosotros*/
 @media (min-width: 768px) {
   .contenido-nosotros{
+    text-align: justify;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column-gap: 2rem;
   }
 } 
 
-.texto-nosotros blockquote{
+.texto-nosotros blockquote{ 
   font-weight: 900;
   font-size: 2rem;
   margin: 0;
